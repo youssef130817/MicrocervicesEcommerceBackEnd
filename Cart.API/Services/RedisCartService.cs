@@ -32,7 +32,7 @@ public class RedisCartService : ICartService
         var key = $"{KeyPrefix}{cart.Id}";
         var data = JsonSerializer.Serialize(cart);
 
-        // Définir une expiration de 30 jours pour le panier
+        // expiration de 30 jours
         await _database.StringSetAsync(key, data, TimeSpan.FromDays(30));
     }
 

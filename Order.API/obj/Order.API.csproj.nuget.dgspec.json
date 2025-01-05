@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Order.API\\Order.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Order.API\\Order.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Order.API\\Order.API.csproj": {
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Order.API\\Order.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Order.API\\Order.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Order.API\\Order.API.csproj",
         "projectName": "Order.API",
-        "projectPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Order.API\\Order.API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Order.API\\Order.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Order.API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Order.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,13 +47,21 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -65,13 +73,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

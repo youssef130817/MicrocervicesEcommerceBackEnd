@@ -4174,11 +4174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Gateway.API\\Gateway.API.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Gateway.API\\Gateway.API.csproj",
       "projectName": "Gateway.API",
-      "projectPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Gateway.API\\Gateway.API.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Gateway.API\\Gateway.API.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Gateway.API\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Gateway.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

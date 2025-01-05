@@ -20,7 +20,7 @@ public class ProductService
     {
         _httpClient = httpClient;
         _configuration = configuration;
-        _httpClient.BaseAddress = new Uri(_configuration["Services:ProductAPI"] ?? "http://localhost:5002/");
+        _httpClient.BaseAddress = new Uri(_configuration["Services:ProductAPI"] ?? "http://localhost:5143/");
     }
 
     public async Task<ProductInfo?> GetProductAsync(Guid productId)

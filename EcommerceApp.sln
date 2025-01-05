@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cart.API", "Cart.API\Cart.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.API", "Payment.API\Payment.API.csproj", "{C4915BAB-7634-4FF2-BD5D-C898D6B3658B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{8F25339A-8831-4DA4-9C13-B0ADA93AF51F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{C4915BAB-7634-4FF2-BD5D-C898D6B3658B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4915BAB-7634-4FF2-BD5D-C898D6B3658B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4915BAB-7634-4FF2-BD5D-C898D6B3658B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F25339A-8831-4DA4-9C13-B0ADA93AF51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F25339A-8831-4DA4-9C13-B0ADA93AF51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F25339A-8831-4DA4-9C13-B0ADA93AF51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F25339A-8831-4DA4-9C13-B0ADA93AF51F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -107,6 +107,30 @@
 			],
 			"UpstreamPathTemplate": "/api/cart",
 			"UpstreamHttpMethod": ["GET", "POST", "PUT", "DELETE"]
+		},
+		{
+			"DownstreamPathTemplate": "/api/auth/{everything}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 5034
+				}
+			],
+			"UpstreamPathTemplate": "/api/auth/{everything}",
+			"UpstreamHttpMethod": ["GET", "POST", "PUT", "DELETE"]
+		},
+		{
+			"DownstreamPathTemplate": "/api/auth",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 5034
+				}
+			],
+			"UpstreamPathTemplate": "/api/auth",
+			"UpstreamHttpMethod": ["GET", "POST", "PUT", "DELETE"]
 		}
 	],
 	"GlobalConfiguration": {

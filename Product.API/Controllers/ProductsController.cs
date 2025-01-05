@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Product.API.Data;
 using Product.API.Models;
 using Product.API.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Product.API.Controllers;
 
@@ -134,6 +135,7 @@ public class ProductsController : ControllerBase
         return Ok(categories);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromForm] CreateProductRequest request)
     {
@@ -174,6 +176,7 @@ public class ProductsController : ControllerBase
         return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, FormatProductResponse(product));
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateProduct(Guid id, [FromForm] UpdateProductRequest request)
     {
@@ -231,6 +234,7 @@ public class ProductsController : ControllerBase
         return Ok(FormatProductResponse(product));
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(Guid id)
     {

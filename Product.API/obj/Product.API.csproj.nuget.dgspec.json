@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Product.API\\Product.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Product.API\\Product.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Product.API\\Product.API.csproj": {
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Product.API\\Product.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Product.API\\Product.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Product.API\\Product.API.csproj",
         "projectName": "Product.API",
-        "projectPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Product.API\\Product.API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Product.API\\Product.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Product.API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Product.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,6 +50,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Cart.API\\Cart.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Cart.API\\Cart.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Cart.API\\Cart.API.csproj": {
+    "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Cart.API\\Cart.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Cart.API\\Cart.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Cart.API\\Cart.API.csproj",
         "projectName": "Cart.API",
-        "projectPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Cart.API\\Cart.API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Cart.API\\Cart.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Ecomerce\\src\\Backend\\Cart.API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ilisi3\\.net\\EcommerceMicroservices\\MicrocervicesEcommerceBackEnd\\Cart.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

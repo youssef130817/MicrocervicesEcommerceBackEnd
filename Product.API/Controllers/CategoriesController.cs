@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Product.API.Data;
 using Product.API.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Product.API.Controllers;
 
@@ -61,6 +62,7 @@ public class CategoriesController : ControllerBase
         });
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> CreateCategory(CreateCategoryRequest request)
     {
@@ -76,6 +78,7 @@ public class CategoriesController : ControllerBase
         return CreatedAtAction(nameof(GetCategory), new { id = category.Id }, category);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateCategory(Guid id, UpdateCategoryRequest request)
     {
@@ -93,6 +96,7 @@ public class CategoriesController : ControllerBase
         return Ok(category);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteCategory(Guid id)
     {
